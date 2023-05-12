@@ -39,7 +39,7 @@ public class Potion extends Weapon implements IUse{
         if(tipe.toLowerCase().equals("attack")){
             System.out.println("Damage Dealt by " + getEffectPotion());
         }else if(tipe.toLowerCase().equals("heal")){
-            System.out.println("Damage Migitated by " + getEffectPotion());
+            System.out.println("Healed by " + getEffectPotion());
         }
     }
 }
